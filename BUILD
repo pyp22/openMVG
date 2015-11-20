@@ -45,9 +45,9 @@ Setup the required external library.
  $ cd ..
  $ mkdir openMVG_Build
  $ cd openMVG_Build
- $ cmake -DCMAKE_BUILD_TYPE=RELEASE . ../openMVG/src/
+ $ cmake -DCMAKE_BUILD_TYPE=RELEASE . ../src/
 If you want enable unit tests and examples to the build:
- $ cmake -DCMAKE_BUILD_TYPE=RELEASE -DOpenMVG_BUILD_TESTS=ON -DOpenMVG_BUILD_EXAMPLES=ON . ../openMVG/src/
+ $ cmake -DCMAKE_BUILD_TYPE=RELEASE -DOpenMVG_BUILD_TESTS=ON -DOpenMVG_BUILD_EXAMPLES=ON . ../src/
 
 => In order to use the MOSEK 6 back-end for the linear programming openMVG module
   - Check that you have an up-to-date MOSEK licence, else openMVG MOSEK unit test will fail.
